@@ -1,0 +1,178 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* header */
+
+header {
+  margin: 0 auto;
+  width: 1235px;
+  height: 55px;
+  background-color: #0067a3;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.user-menu {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding-right: 7px;
+}
+
+.user-avatar {
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.user-menu__pop-up {
+  width: 134px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 61px;
+  left: -72px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  justify-content: space-evenly;
+
+  box-sizing: border-box;
+  padding-left: 7px;
+}
+
+.arrow img {
+  transition: transform 0.5s ease;
+}
+
+.user-menu__pop-up span {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+/* main */
+
+main {
+  margin: 0 auto;
+  width: 1235px;
+  height: 590px;
+  background-color: #0079bf;
+
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.namelist,
+.content,
+.btn-add {
+  padding-left: 12px;
+}
+
+.list {
+  border-radius: 10px;
+  width: 282px;
+  height: fit-content;
+
+  max-height: 538px;
+  background-color: #ebecf0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow: scroll;
+
+  margin-top: 20px;
+  padding-top: 12px;
+  padding-bottom: 8px;
+
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.item {
+  width: 258px;
+  background-color: #ffffff;
+  border-radius: 5px;
+
+  box-sizing: border-box;
+  padding-left: 8px;
+  padding-right: 9px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+.btn-add button {
+  border: none;
+  display: flex;
+  gap: 3px;
+  color: #5e6c84;
+}
+
+.btn-add button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+/* footer */
+
+footer {
+  margin: 0 auto;
+  width: 1235px;
+  height: 55px;
+
+  background-color: #0067a3;
+
+  display: flex;
+  flex-flow: row nowrap;
+
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 36px;
+  padding-left: 21px;
+}
+
+.author {
+  padding-right: 19px;
+}
